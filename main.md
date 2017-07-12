@@ -120,4 +120,10 @@ If a repo is intigrated into a CD pipeline, it shoule be noted in the README.
 
 --
 
-## Example and Questions
+### Some useful resources
+
+- [Common Git Aliases](https://gist.github.com/kirkbyers/1a20aeeabefc06d912bbbcc053046d30)
+
+- [P4Merge](https://www.perforce.com/downloads/visual-merge-tool) ([gitconfig](https://gist.github.com/CamW/88e95ea8d9f0786d746a))
+
+- [VSCode](https://code.visualstudio.com/)
