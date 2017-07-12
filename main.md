@@ -94,4 +94,30 @@ When in doubt on how to resolve files, ask the contributors. You can also run `g
 
 --
 
+### Create a README.md
+
+Create and maintain a readme in the root of the repo that contains the use cases of the project, instructions on how to run the project (for developers and consumers), and how to contribute to the project.
+
+--
+
+### Benifits
+
+- Continuous Deployment
+
+- Clarity and Confidence
+
+- Easy Issue Tracking
+
+--
+
+### Continuous Deployment
+
+Since "master" is always stable and "dev" is nearly always stable, "master" and "dev" are good targets for Continous Deployment (CD).
+
+This is usually "simply" setting some config in your deployment target to point to a bash or batch script.
+
+If a repo is intigrated into a CD pipeline, it shoule be noted in the README.
+
+--
+
 ## Example and Questions

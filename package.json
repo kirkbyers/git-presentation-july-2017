@@ -4,7 +4,8 @@
   "description": "A Cleaver Presentaion on Git",
   "main": "index.js",
   "scripts": {
-    "start": "cleaver ./main.md && serve -o",
+    "start": "npm run build && serve -o",
+    "build": "cleaver ./main.md",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kirk Byers",

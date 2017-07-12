@@ -387,7 +387,7 @@ body, div, section, h1, h2, h3, p {
 
   <div class="slide" id="slide-1">
     <section class="slide-content"><h1 id="git-for-small-teams">Git for Small Teams</h1>
-<h2 id="a-forking-stratagy">A Forking Stratagy</h2>
+<h2 id="a-forking-strategy">A Forking Strategy</h2>
 </section>
   </div>
   <div class="slide hidden" id="slide-2">
@@ -400,6 +400,8 @@ body, div, section, h1, h2, h3, p {
 </li>
 <li><p>How do I consume the repo as part of another project?</p>
 </li>
+<li><p>What branch(es) should I deploy or use?</p>
+</li>
 </ul>
 </section>
   </div>
@@ -407,7 +409,7 @@ body, div, section, h1, h2, h3, p {
     <section class="slide-content"><h3 id="enter-git-forks">Enter Git Forks</h3>
 <p>Git Forks solve most of these problems out of the box.</p>
 <p>Forking a project allows a developer to work independently while giving them an organized path to keep up to date with latest changes and pushing changes to repo.</p>
-<p>We&#39;ll add a little bit of structure to the basic process to give us added benifits.</p>
+<p>We&#39;ll add a little bit of structure to the basic process to give us added benefits.</p>
 </section>
   </div>
   <div class="slide hidden" id="slide-4">
@@ -429,7 +431,7 @@ body, div, section, h1, h2, h3, p {
     <section class="slide-content"><h3 id="workflow">Workflow</h3>
 <p>1) Pull from <code>dev</code></p>
 <p>2) Branch from <code>dev</code>. Name your branch with your feature. Eg &quot;kbye/loading-indicator&quot;</p>
-<p>3) When commiting changes write <a href="https://chris.beams.io/posts/git-commit/">quality commit messages</a></p>
+<p>3) When committing changes write <a href="https://chris.beams.io/posts/git-commit/">quality commit messages</a></p>
 <p>4) When your feature is complete, open a pull request</p>
 <p>5) After some feedback, your feature will be merged in!</p>
 </section>
@@ -450,10 +452,34 @@ body, div, section, h1, h2, h3, p {
 </section>
   </div>
   <div class="slide hidden" id="slide-9">
+    <section class="slide-content"><h3 id="create-a-readme-md">Create a README.md</h3>
+<p>Create and maintain a readme in the root of the repo that contains the use cases of the project, instructions on how to run the project (for developers and consumers), and how to contribute to the project.</p>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-10">
+    <section class="slide-content"><h3 id="benifits">Benifits</h3>
+<ul>
+<li><p>Continuous Deployment</p>
+</li>
+<li><p>Clarity and Confidence</p>
+</li>
+<li><p>Easy Issue Tracking</p>
+</li>
+</ul>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-11">
+    <section class="slide-content"><h3 id="continuous-deployment">Continuous Deployment</h3>
+<p>Since &quot;master&quot; is always stable and &quot;dev&quot; is nearly always stable, &quot;master&quot; and &quot;dev&quot; are good targets for Continous Deployment (CD).</p>
+<p>This is usually &quot;simply&quot; setting some config to point to a bash or batch script.</p>
+<p>If a repo is intigrated into a CD pipeline, it shoule be noted in the README.</p>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-12">
     <section class="slide-content"><h2 id="example-and-questions">Example and Questions</h2>
 </section>
   </div>
-  <div class="slide hidden author-slide" id="slide-10">
+  <div class="slide hidden author-slide" id="slide-13">
     <section class="slide-content"><div class="author">
   <h1 class="name">Kirk Byers</h1>
 </div>
