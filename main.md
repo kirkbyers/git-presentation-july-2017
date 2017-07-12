@@ -100,7 +100,7 @@ Create and maintain a readme in the root of the repo that contains the use cases
 
 --
 
-### Benifits
+### Benefits
 
 - Continuous Deployment
 
@@ -112,7 +112,7 @@ Create and maintain a readme in the root of the repo that contains the use cases
 
 ### Continuous Deployment
 
-Since "master" is always stable and "dev" is nearly always stable, "master" and "dev" are good targets for Continous Deployment (CD).
+Since "master" is always stable and "dev" is nearly always stable, "master" and "dev" are good targets for Continuous Deployment (CD).
 
 This is usually "simply" setting some config in your deployment target to point to a bash or batch script.
 
