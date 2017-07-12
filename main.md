@@ -23,6 +23,8 @@ When collaborating on a single git repo, there are several pain points developer
 
 * How do I consume the repo as part of another project?
 
+* What branch(es) should I deploy or use?
+
 -- 
 
 ### Enter Git Forks
