@@ -9,7 +9,7 @@ controls: true
 
 # Git for Small Teams
 
-## A Forking Stratagy
+## A Forking Strategy
 
 --
 
@@ -31,7 +31,7 @@ Git Forks solve most of these problems out of the box.
 
 Forking a project allows a developer to work independently while giving them an organized path to keep up to date with latest changes and pushing changes to repo.
 
-We'll add a little bit of structure to the basic process to give us added benifits.
+We'll add a little bit of structure to the basic process to give us added benefits.
 
 --
 
@@ -62,7 +62,7 @@ You are now ready to start a new feature
 
 2) Branch from `dev`. Name your branch with your feature. Eg "kbye/loading-indicator"
 
-3) When commiting changes write [quality commit messages](https://chris.beams.io/posts/git-commit/)
+3) When committing changes write [quality commit messages](https://chris.beams.io/posts/git-commit/)
 
 4) When your feature is complete, open a pull request
 
