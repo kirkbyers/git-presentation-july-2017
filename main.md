@@ -1,6 +1,7 @@
 title: Git for Small Teams (Forking)
 author:
     name: Kirk Byers
+style: styles.css
 output: index.html
 controls: true
 
@@ -69,5 +70,26 @@ You are now ready to start a new feature
 
 --
 
-### Merge Conflicts
+### Resolving Conflicting History
 
+When you go to merge your feature back into "dev", you may encounter that "dev" has changed since your branched. To resolve
+
+1) `git checkout dev` and `git pull`
+
+2) `git checkout [feature-branch]` and `git merge dev`
+
+3) `git push`
+
+--
+
+### Resolving Merge Conflict
+
+Use `git status` after attempting a merge to see conflict files. Git will leave markers in the file to show you what code chunks are conflicting. Edit the conflicting files to remove the markers and have the desired resolution.
+
+Check-in your resolved files and run `git commit` (no message) to commit the merge.
+
+When in doubt on how to resolve files, ask the contributors. You can also run `git merge --abort` to cancel the merge.
+
+--
+
+## Example and Questions
