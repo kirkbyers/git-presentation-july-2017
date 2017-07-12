@@ -1,0 +1,15 @@
+{
+  "name": "git-presentation",
+  "version": "1.0.0",
+  "description": "A Cleaver Presentaion on Git",
+  "main": "index.js",
+  "scripts": {
+    "start": "cleaver ./main.md && serve -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kirk Byers",
+  "license": "ISC",
+  "dependencies": {
+    "cleaver": "^0.8.5"
+  }
+}
